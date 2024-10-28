@@ -1,8 +1,7 @@
 // src/api.js
 import axios from 'axios';
-//const API_URL = 'http://localhost:3000/todos';
-const API_URL = 'https://to-do-app-backend-3z68.vercel.app/';
 
+const API_URL = 'http://localhost:3000/todos';
 
 export const getTodos = () => axios.get(API_URL);
 export const createTodo = (title) => axios.post(API_URL, { title });
