@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import { getTodos, createTodo, updateTodo, deleteTodo } from './api';
-import './styles.css'; // Import the CSS file here
+import './styles.css'; 
 
 function App() {
   const [todos, setTodos] = useState([]);
